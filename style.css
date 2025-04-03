@@ -1,0 +1,41 @@
+
+body{
+    height: 100vh;
+    background: url("herth.jpg") !important;
+}
+.navbar{
+    width: 100%;
+    opacity: 70%;
+
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+}
+.dropdown-menu{
+
+    overflow-y: scroll;
+}
+
+main{
+    margin-top: 60px;
+}
+.container-cards{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+}
+ul li a{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+
+
+
+
+

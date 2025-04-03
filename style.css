@@ -12,7 +12,6 @@ body{
     z-index: 100000;
 }
 .dropdown-menu{
-
     overflow-y: scroll;
 }
 
@@ -32,6 +31,21 @@ ul li a{
 .navbar-brand{
     color: white !important;
     font-weight: bold !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    text-align: center;
+
+}
+.card-title{
+    text-align: center;
+
 }
 
 

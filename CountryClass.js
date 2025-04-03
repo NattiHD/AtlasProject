@@ -29,7 +29,7 @@ export class CountryClass {
            div.style.width = "18rem"
            div.innerHTML = `
                 
-                 <img src= ${this.flag}
+                 <img height="200px" src= ${this.flag}
                                class="card-img-top" alt="...">
                  <div class="card-body">
                      <h1 class="card-title">${this.name}</h1>
@@ -58,10 +58,10 @@ export class CountryClass {
         div.style.width = "18rem"
         div.innerHTML = `
              
-                 <img src= ${this.flag}
+                 <img height="200px" src= ${this.flag}
                                class="card-img-top" alt="...">
                  <div class="card-body">
-                     <h5 class="card-title">${this.name}</h5>
+                     <h5 class="card-title" >${this.name}</h5>
                  </div>
              
            `

@@ -2,7 +2,7 @@ import {CountryClass} from "./CountryClass.js";
 export let myData; //משתנה סטטי לנתונים
 let loading = document.querySelector('.loading');
 
-let url = `https://restcountries.com/v3.1/all`
+let url = `https://restcountries.com/v3.1/all?fields=name,flags,population,capital,languages,latlng,borders,cca3`
 
 const init = () => {
     // showLowding()
